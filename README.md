@@ -11,7 +11,7 @@
    
 ## INTRODUCTION: BUSINESS PROBLEM <a name="INTRODUCTION"></a>
 
-Patna capital of Bihar state, northern India. Patna is a riverside city that extends along the south bank of the Ganges. Total population of Patna is more than 6.5 Million. It has total 40 neighborhood. My project aims to find the best location to open a Café, Chinese Restaurant, Furniture store, American Restaurants in the city of Patna, India.The major **Target Audience would be small-scale business owners and stake holders planning to start their business at a location in Chennai.**  
+Patna capital of Bihar state, northern India. Patna is a riverside city that extends along the south bank of the Ganges. Total population of Patna is more than 6.5 Million. It has total 40 neighborhood. My project aims to find the best location to open a Café, Chinese Restaurant, Furniture store, American Restaurants in the city of Patna, India.The major **Target Audience would be business owners and stake holders planning to start their business at a location in Patna.**  
 
 The Foursquare API is used to access the venues in the neighborhoods. Since, it returns less venues in the neighborhoods, we would be analysing areas for which countable number of venues are obtained. Then they are clustered based on their venues using Data Science Techniques. Here the k-means clustering algorithm is used to achieve the task. The optimal number of clusters can be obtained using silhouette score metrics. Folium visualization library can be used to visualize the clusters superimposed on the map of Patna. These clusters can be analyzed to help small scale business owners select a suitable location for their need such as Café, Chinese Restaurant, Furniture store and American Restaurants.
 
