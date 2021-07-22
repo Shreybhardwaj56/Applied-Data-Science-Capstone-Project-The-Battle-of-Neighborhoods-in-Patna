@@ -41,7 +41,7 @@ From the graph we can see that Buddha Colony and Serpentine Road returned the hi
 
 ![](https://media-exp3.licdn.com/dms/image/C4D12AQGs-XtAmKbsww/article-inline_image-shrink_1000_1488/0/1625773437545?e=1632355200&v=beta&t=n3zBq67DFCm7Fr9V7r0fgskgFrRYICmgEz8eMbX5Smo)
 
-There are many techniques are available in Data science field. For my project,  K-Nearest Neighbor (KNN) clustering algorithm is used. It is an unsupervised machine learning technique that clusters the given data into K number of clusters. For optimal result we need to select the best value for K. Here, the silhouette score is used to find the best value for K. 
+There are many techniques are available in Data science field. For my project,  K-Means clustering algorithm is used. It is an unsupervised machine learning technique that clusters the given data into K number of clusters. For optimal result we need to select the best value for K. Here, the silhouette score is used to find the best value for K. 
 
 ![](https://media-exp3.licdn.com/dms/image/C4D12AQF-Cw7yUVmZhQ/article-inline_image-shrink_1000_1488/0/1625773704126?e=1632355200&v=beta&t=913jqfDdgYrH4ke0UnDH1OK7k0NB6tgmhfRW-0m_0BQ)
 
@@ -81,7 +81,7 @@ After Food the most growing business in Patna is Furniture Stores. Places like D
 Purpose of this project was to analyze the neighborhoods of Patna and create a clustering model to suggest places to start a new business based on the category. The neighborhoods data was obtained from Wikipedia and the Foursquare API was used to find the major venues in each neighborhood.Then locations were used to create a clustering model. The best number of clusters i.e. 4 was obtained using the silhouette score. Each cluster was examined to find the most venue categories present, that defines the characteristics for that particular cluster.A map showing the clusters has been provided. Both of these can be used by stakeholders to decide the location for the required type of business.
 
 ## THANK YOU
-I hope you found the project useful and interesting. This project was deveoped for the Applied Data Science Capstone as part of the IBM Data Science Professional Certificate provided through Coursera. Feel free to  download this project for your requirements and you can ask me also on -- [Shrey Bhardwaj](https://www.linkedin.com/in/shrey-bhardwaj-69076317b/).
+I hope you found the project useful and interesting. This project was deveoped for the Applied Data Science Capstone as part of the IBM Data Science Professional Certificate provided through Coursera. Feel free to  download this project for your requirements and you can ask me also  -- [Shrey Bhardwaj](https://www.linkedin.com/in/shrey-bhardwaj-69076317b/).
 
 
 
