@@ -30,7 +30,7 @@ A total of 75 venues data have been obtained from Foursquare.
 
 Now, we have the neighborhoods data of Patna (41 neighborhoods). We also have the most popular venues in each neighborhood obtained using Foursquare API. A total of 75 venues have been obtained in the whole city and 35 unique categories.
 
-We can perform one hot encoding on the obtained data set and use it find the 10 most common venue category in each neighborhood. Then clustering can be performed on the dataset. Here K - Nearest Neighbor clustering technique have been used. To find the optimal number of clusters silhouette score metric technique is used.
+We can perform one hot encoding on the obtained data set and use it find the 10 most common venue category in each neighborhood. Then clustering can be performed on the dataset. Here K Means clustering technique have been used. To find the optimal number of clusters silhouette score metric technique is used.
 
 The clusters obtained can be analyzed to find the major type of venue categories in each cluster. This data can be used to suggest business people, suitable locations based on the category.
 
@@ -81,9 +81,9 @@ After Food the most growing business in Patna is Furniture Stores. Places like D
 Purpose of this project was to analyze the neighborhoods of Patna and create a clustering model to suggest places to start a new business based on the category. The neighborhoods data was obtained from Wikipedia and the Foursquare API was used to find the major venues in each neighborhood.Then locations were used to create a clustering model. The best number of clusters i.e. 4 was obtained using the silhouette score. Each cluster was examined to find the most venue categories present, that defines the characteristics for that particular cluster.A map showing the clusters has been provided. Both of these can be used by stakeholders to decide the location for the required type of business.
 
 ## THANK YOU
-I hope you found the project useful and interesting. This project was deveoped for the Applied Data Science Capstone as part of the IBM Data Science Professional Certificate provided through Coursera. Feel free to fork or download this project for your requirements.
+I hope you found the project useful and interesting. This project was deveoped for the Applied Data Science Capstone as part of the IBM Data Science Professional Certificate provided through Coursera. Feel free to  download this project for your requirements and you can ask me also on -- [Shrey Bhardwaj](https://www.linkedin.com/in/shrey-bhardwaj-69076317b/).
 
--- [Shrey Bhardwaj](https://www.linkedin.com/in/shrey-bhardwaj-69076317b/)
+
 
 
 
